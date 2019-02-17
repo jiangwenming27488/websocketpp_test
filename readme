@@ -1,16 +1,12 @@
-First of all, take a look at the attached code
+C++ seocket client example
 
-I've coded it inside el little client class for simplicity. In this way is also easier (and cleaner) to handle timers and timeouts.
+This is a class sample using websocketpp  C++ header only library
 
 It handles two type co PING: Websocket level and application level.
 
-I've tested reconnection by turning off my wifi connection after 15 seconds program detects failure and then (after you re - enable wifi) it reconnects to server.
+In case of connectio error,  the example closes and restart websocket connection
 
-I'll be testing low level ping in deeper detail though.
+it connects adn subscribes to "wss://api.bitfinex.com:443/ws/2"  for the sake of the test
 
-Also, let me know IP binding, it should be easy!
 
-I'm interested in API you mentioned, can you give me more details about functionality, required primitives, etc?
 
-Regards,
-Ricardo
