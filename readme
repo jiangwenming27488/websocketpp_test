@@ -1,0 +1,16 @@
+First of all, take a look at the attached code
+
+I've coded it inside el little client class for simplicity. In this way is also easier (and cleaner) to handle timers and timeouts.
+
+It handles two type co PING: Websocket level and application level.
+
+I've tested reconnection by turning off my wifi connection after 15 seconds program detects failure and then (after you re - enable wifi) it reconnects to server.
+
+I'll be testing low level ping in deeper detail though.
+
+Also, let me know IP binding, it should be easy!
+
+I'm interested in API you mentioned, can you give me more details about functionality, required primitives, etc?
+
+Regards,
+Ricardo
